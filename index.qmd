@@ -63,11 +63,12 @@ g_int
 Sitio web desarrollado y mantenido por <b style="color: `r c3`">Víctor Gauto</b>
 
 <span style='font-size: 1.3rem'>
-[{{< fa envelope >}}](mailto:victor.gauto@outlook.com)`r espacios`
-[{{< fa brands github >}}](https://github.com/vhgauto)`r espacios`
-[{{< fa brands twitter >}}](https://x.com/vhgauto)`r espacios`
-[{{< fa brands instagram >}}](https://www.instagram.com/vhgauto/)`r espacios`
-[{{< fa brands mastodon >}}](https://fosstodon.org/@vhgauto)
+[<span class="nf nf-md-email"></span>](mailto:victor.gauto@outlook.com)`r espacios`
+[<span class="nf nf-fa-github"></span>](https://github.com/vhgauto)`r espacios`
+[<span class="nf nf-cod-twitter"></span>](https://x.com/vhgauto)`r espacios`
+[<span class="nf nf-fa-instagram"></span>](https://www.instagram.com/vhgauto/)`r espacios`
+[<span class="nf nf-fa-mastodon"></span>](https://fosstodon.org/@vhgauto)`r espacios`
+[<span class="nf nf-fae-butterfly"></span>](https://bsky.app/profile/vhgauto.bsky.social)
 </span>
 
 </center>
@@ -78,11 +79,11 @@ Sitio web desarrollado y mantenido por <b style="color: `r c3`">Víctor Gauto</b
 
 <center>`r arcoiris`</center>
 
-:::
-
 <br>
 <br>
 
 <p style="color: `r c5`; font-family: JetBrains Mono" align="right">
 `r format(now(), "%d/%m/%Y")`
 </p>
+
+:::
