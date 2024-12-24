@@ -83,7 +83,7 @@ Sitio web desarrollado y mantenido por <b style="color: `r c3`">Víctor Gauto</b
 <br>
 
 <p style="color: `r c5`; font-family: JetBrains Mono" align="right">
-`r format(now(), "%d/%m/%Y")`
+`r format(Sys.time(), "%d/%m/%Y")``r espacios`
 </p>
 
 :::
