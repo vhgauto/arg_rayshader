@@ -19,13 +19,13 @@ f_gg <- function(datos, expand = TRUE) {
     mutate(
       ll = glue(
         "<span style='font-family: Bebas Neue; color: {c3}; font-size:50px'>",
-        "{region}<br>{label_color}"
+        "{toupper(region)}</span><br>{label_color}"
       )
     )
 
   ggplot() +
     geom_sf(
-      data = df, fill = c4, color = c1, linewidth = .1
+      data = df, fill = c4, color = NA
     ) +
     geom_sf_interactive(
       data = df,
